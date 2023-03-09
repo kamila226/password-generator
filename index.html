@@ -1,9 +1,11 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
+        <title>Generate safe password!</title>
     </head>
     <body>
         <div class="container">
@@ -17,7 +19,6 @@
                     <input class="checkbox" type="checkbox" id="without-spec-char">
                     <label for="without-spec-char">Without special characters</label><br>
                 </div>
-                
             </div>
             
             <button id="generate-btn">Generate passwords</button>
@@ -25,8 +26,8 @@
             <div id="passwords">
                 <div class="password" id="password1" onclick="copyContent()"></div>
                 <div class="password" id="password2"></div>
-                
-            <script src="index.js"></script>
+            </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
